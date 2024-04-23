@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 
 export default props =>{
     return(
-        <SafeAreaView style={{flex:1, backgroundColor: '#f0f0f0'}}>
+        <SafeAreaView style={{flex:1}}>
             {/* <Cadastro/> */}
             <NavigationContainer>
                 <Stack.Navigator>
